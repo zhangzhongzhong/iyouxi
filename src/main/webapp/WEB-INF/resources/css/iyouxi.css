@@ -1,0 +1,16 @@
+.green {
+	color: green
+}
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}  
+
+.split {
+	border-left: 1px solid #B7D0E4;
+	display: inline-block;
+	margin-left: -1px;
+	padding: 0px 0px 0px 3px;
+}
