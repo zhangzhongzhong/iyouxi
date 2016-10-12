@@ -1,6 +1,7 @@
 .green {
 	color: green
 }
+
 .col-center-block {  
     float: none;  
     display: block;  
@@ -8,9 +9,28 @@
     margin-right: auto;  
 }  
 
-.split {
-	border-left: 1px solid #B7D0E4;
-	display: inline-block;
-	margin-left: -1px;
-	padding: 0px 0px 0px 3px;
+.split-color {
+    display:inline-block;
+    /*padding:30px;*/
+    /*line-height:37px;*/
+    float:right;
+    position:relative;
+}
+.split-color:before {
+	display:inline-block;
+	content:"";
+	position:absolute;
+	top:10px;
+	bottom:10px;
+	left:-1px;
+	border: 0 solid #EEE;
+	border-right-width: 1px;
+}
+
+.login-margin {
+	margin-top: 40px;
+}
+
+.login-bottom {
+	bottom: 40px;
 }
